@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@+id/color"
+        android:background="@color/red"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="00000000"
+        android:textAlignment="center"
+        android:textSize="70px"
+        />
+
+    <EditText
+        android:id="@+id/numVal"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Switch
+        android:id="@+id/switch0"
+        android:text="2^0"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:showText="true"
+        android:textOff="0"
+        android:textOn="1"/>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:text="2^1"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:showText="true"
+        android:textOff="0"
+        android:textOn="1"/>
+
+    <Switch
+        android:id="@+id/switch2"
+        android:text="2^2"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:showText="true"
+        android:textOff="0"
+        android:textOn="1"/>
+
+    <Switch
+        android:id="@+id/switch3"
+        android:text="2^3"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:showText="true"
+        android:textOff="0"
+        android:textOn="1"/>
+
+    <Switch
+        android:id="@+id/switch4"
+        android:text="2^4"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:showText="true"
+        android:textOff="0"
+        android:textOn="1"/>
+
+    <Switch
+        android:id="@+id/switch5"
+        android:text="2^5"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:showText="true"
+        android:textOff="0"
+        android:textOn="1"/>
+
+    <Switch
+        android:id="@+id/switch6"
+        android:text="2^6"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:showText="true"
+        android:textOff="0"
+        android:textOn="1"/>
+
+    <Switch
+        android:id="@+id/switch7"
+        android:text="2^7"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:showText="true"
+        android:textOff="0"
+        android:textOn="1"/>
+
+
+
+</LinearLayout>
